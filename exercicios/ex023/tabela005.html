@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercios de Tabelas</title>
+    <style>
+        body{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 8px;
+
+        }
+        th,td{
+            border: 1px solid black;
+            padding: 8px;
+        }
+        .destaque{
+            background-color: green;
+        }
+        .cnome{
+            background-color: aqua;
+        }
+        col.cgrupo{
+            background-color: yellow;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Exercicios de Tabela</h1>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="cgrupo" span="2">
+            <col class="cprof">
+        </colgroup>
+        <caption> Cadastro </caption>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Profissão</th>
+            </tr>
+            <tr>
+                <td>Ana Maria</td>
+                <td>F</td>
+                <td>25</td>
+                <td>Jornalista</td>
+            </tr>
+            <tr>
+                <td>Ana Luci</td>
+                <td>F</td>
+                <td>24</td>
+                <td>Gerente Comercial</td>
+            </tr>
+            <tr>
+                <td>João Pedro</td>
+                <td>M</td>
+                <td>20</td>
+                <td>Estoquista</td>
+            </tr>
+            <tr>
+                <td>Clara Diniz</td>
+                <td>F</td>
+                <td>31</td>
+                <td>Narradora</td>
+            </tr>
+            <tr>
+                <td >Carlos Miguel</td>
+                <td>M</td>
+                <td>28</td>
+                <td>Jornalista</td>
+            </tr>
+            <tr>
+                <td>Laura Campos</td>
+                <td>F</td>
+                <td>18</td>
+                <td>Estudante</td>
+            </tr>
+        
+    </table>
+    
+</body>
+</html>
