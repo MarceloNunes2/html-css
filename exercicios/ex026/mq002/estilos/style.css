@@ -1,20 +1,20 @@
 @charset "UTF-8";
 
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 html,body{
     width: 100vw;
     height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: black;
+    background-color: #233eff;
     background-size: contain;
     background-repeat: no-repeat;
     
 }
 h1{
     color: aliceblue;
-    text-shadow: 3px 3px 0px #233eff;
+    text-shadow: 3px 3px 0px #2139e9;
     padding: 10px;
 }
