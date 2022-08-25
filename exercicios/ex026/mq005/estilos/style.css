@@ -63,8 +63,8 @@ menu > ul > li > a{
     font-family: var(--fonteprincipal);
  }
  main{
-    width: 90wv;
-    background-color: white;
+    width: 90vw;
+    background-color: rgb(196, 114, 114);
     margin: auto;
     padding: 10px;
     border-radius: 10px;
